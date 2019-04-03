@@ -22,6 +22,7 @@ import android.support.test.runner.AndroidJUnit4;
 import org.hamcrest.Matcher;
 import org.hamcrest.Matchers;
 import org.junit.Rule;
+import org.junit.Test;
 import org.junit.runner.RunWith;
 
 import static android.support.test.espresso.Espresso.onData;
@@ -58,6 +59,7 @@ public class MenuActivityScreenTest {
     public ActivityTestRule<MenuActivity> mActivityTestRule =
             new ActivityTestRule<>(MenuActivity.class);
 
+    @Test
     public void clickGridViewItem_OpensOrderActivity() {
 
         // Uses {@link Espresso#onData(org.hamcrest.Matcher)} to get a reference to a specific
