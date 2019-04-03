@@ -45,6 +45,7 @@ import static org.hamcrest.core.AllOf.allOf;
 public class OrderSummaryActivityTest {
 
 
+    //equals string name="email_message" in string.xml
     private static final String emailMessage = "I just ordered a delicious tea from TeaTime. Next time you are craving a tea, check them out!";
 
     // OK (2) Add the rule that indicates we want to use Espresso-Intents APIs in functional UI tests
